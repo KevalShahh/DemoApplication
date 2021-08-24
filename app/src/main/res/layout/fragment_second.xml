@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Second fragment" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="previous"
+        android:id="@+id/btn_previous"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t_name"
+        android:layout_below="@id/btn_previous"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t_age"
+        android:layout_below="@id/t_name"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t_surname"
+        android:layout_below="@id/t_age"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        />
+</RelativeLayout>

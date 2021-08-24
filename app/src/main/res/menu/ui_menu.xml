@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/item_home"
+        android:title="home"
+        />
+    <item android:title="calendar"
+        android:id="@+id/item_calendar"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        />
+    <item android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="person"
+        android:id="@+id/item_person"
+        />
+    <item android:id="@+id/item_equalizer"
+        android:icon="@drawable/ic_baseline_equalizer_24"
+        android:title="equalizer"
+        />
+    <item android:title="info"
+        android:id="@+id/item_info"
+        android:icon="@drawable/ic_baseline_info_24"
+        />
+</menu>

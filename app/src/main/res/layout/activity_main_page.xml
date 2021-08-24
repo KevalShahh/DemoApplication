@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Pager" />
+
+        <Button
+            android:id="@+id/btn_snackbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="snackbar" />
+
+        <Button
+            android:id="@+id/btn_float"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Floating button" />
+
+        <Button
+            android:id="@+id/btn_intent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="intent demo" />
+
+        <Button
+            android:id="@+id/btn_ui"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UI Design" />
+
+        <Button
+            android:id="@+id/btn_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="recyclerview" />
+
+        <Button
+            android:id="@+id/btn_custom_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="custom Recycler" />
+
+        <Button
+            android:id="@+id/btn_bottom_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bottom navigation" />
+
+        <Button
+            android:id="@+id/btn_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="room database" />
+
+        <Button
+            android:id="@+id/btn_internal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="internal storage" />
+
+        <Button
+            android:id="@+id/btn_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="external storage" />
+
+        <Button
+            android:id="@+id/btn_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="navigation graph" />
+
+        <Button
+            android:id="@+id/btn_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="camera api 2" />
+
+        <Button
+            android:id="@+id/btn_retrofit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="retrofit" />
+
+        <Button
+            android:id="@+id/btn_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="contact" />
+
+        <Button
+            android:id="@+id/btn_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tab layout" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="retrofit api"
+            android:id="@+id/btn_retrofit_api"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="connectivity"
+            android:id="@+id/btn_connectivity"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ble connection"
+            android:id="@+id/btn_ble"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="button"
+            android:id="@+id/btn_btn"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="calculator"
+            android:id="@+id/btn_calc"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification"
+            android:id="@+id/btn_notify"
+            />
+    </LinearLayout>
+</ScrollView>
